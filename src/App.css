@@ -1,19 +1,23 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  scroll-behavior: smooth;
+.section__padding {
+    padding: 4rem 6rem;
+ }
+
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-body {
-  background: #fff;
+.app__bg {
+  background: url('./assets/salad.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
-a {
-  color: unset;
-  text-decoration: none;
-}
-
-li  {
-    list-style: none;
+.app__wrapper  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

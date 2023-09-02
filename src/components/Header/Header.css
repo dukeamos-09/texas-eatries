@@ -1,12 +1,11 @@
 .app__header {
-  background: #f6f7f6;
-}
+  background-color: #ffffff;
+  }
 
 .app__header-h1 {
   font-family: sans-serif;
-  color: rgb(238, 15, 15);
+  color: rgb(120, 5, 252);
   letter-spacing: 0.04em;
-  text-transform: uppercase;
   line-height: 90px;
   font-size: 60px;
   margin: 0.5rem;
@@ -25,8 +24,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex-direction: row;
-    padding: 2rem;
+    flex-direction: column;
+    padding: 1rem;
 }
 
 .app__wrapper_info p  {
@@ -37,6 +36,7 @@
 
 .app__wrapper_img  {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }

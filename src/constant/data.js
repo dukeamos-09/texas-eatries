@@ -1,32 +1,27 @@
-import { data } from '.';
-import images from './images';
+import { data } from "./";
+import images from "./images";
 
-const meal = [
+const foods = [
   {
     title: "Toasted Bread Blackberries",
     price: "$3",
   },
-
   {
     title: "Burger",
     price: "$1",
   },
-
   {
     title: "Raspberries Cake",
     price: "$2",
   },
-
   {
     title: "Salad",
     price: "$5",
   },
-
   {
     title: "Meat Balls",
     price: "$7",
   },
-
   {
     title: "Grilled Chicken",
     price: "$7",

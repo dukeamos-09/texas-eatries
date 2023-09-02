@@ -1,6 +1,7 @@
+import Navbar from "./Navbar/Navbar";
+import SpecialMenu from "./SpecialMenu/SpecialMenu";
+import SubHeading from "./SubHeading/SubHeading";
+import MenuItems from "./MenuItems/MenuItems";
+import Header from "./Header/Header";
 
-export { default as Navbar } from './Navbar/Navbar';     
-export { default as Header } from './Header/Header';     
-export { default as SpecialMenu } from './SpecialMenu/SpecialMenu';     
-export { default as SubHeading } from './SubHeading/SubHeading';     
-export { default as MenuItems } from './MenuItems/MenuItems';     
+export { Navbar, SpecialMenu, SubHeading, MenuItems, Header };

@@ -6,7 +6,7 @@ import images from '../../constant/images';
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = React.useState(false);
+  const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
     <nav className="app__navbar">
@@ -14,25 +14,25 @@ const Navbar = () => {
         <img src={images.logo} alt="app logo" />
       </div>
       <ul className="app__navbar-links">
-        <li>
+        <li className="p__opensans">
           <a href="#home">Home</a>
         </li>
-        <li>
+        <li className="p__opensans">
           <a href="#about">About</a>
         </li>
-        <li>
+        <li className="p__opensans">
           <a href="#contact">ContactUs</a>
         </li>
-        <li>
+        <li className="p__opensans">
           <a href="#menu">Menu</a>
         </li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login">Log In / Register</a>
+        <a href="#login" className="p__opensans">Log In / Register</a>
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
-          color="#fff"
+          color="#000"
           fontSize={27}
           onClick={() => setToggleMenu(true)}
         />
@@ -52,7 +52,7 @@ const Navbar = () => {
                 <a href="#about">About</a>
               </li>
               <li>
-                <a href="#contact">ContactUs</a>
+                <a href="#contact">Contact Us</a>
               </li>
               <li>
                 <a href="#menu">Menu</a>
@@ -60,7 +60,6 @@ const Navbar = () => {
             </ul>
           </div>
         )}
-        
       </div>
     </nav>
   );
