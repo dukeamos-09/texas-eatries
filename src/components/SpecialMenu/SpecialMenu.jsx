@@ -8,6 +8,7 @@ const SpecialMenu = () => {
   return (
     <div className="app__specialMenu">
       <div className="app__specialMenu-items">
+        <h1 className='app__specialMenu-h1'>Menu Items</h1>
         {data.foods.map((food, index) => (
           <MenuItems
             key={food.title + index}

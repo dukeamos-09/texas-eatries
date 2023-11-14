@@ -1,5 +1,9 @@
 .app__header {
   background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
 
 .app__header-h1 {
