@@ -1,4 +1,4 @@
-import { data } from "./";
+
 import { images } from "./images";
 
 const foods = [
@@ -28,4 +28,4 @@ const foods = [
   },
 ];
 
-export default data;
+export default {foods};
