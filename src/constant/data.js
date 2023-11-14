@@ -1,5 +1,5 @@
 import { data } from "./";
-import images from "./images";
+import { images } from "./images";
 
 const foods = [
   {

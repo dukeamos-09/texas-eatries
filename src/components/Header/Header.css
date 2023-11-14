@@ -1,6 +1,6 @@
 .app__header {
   background-color: #ffffff;
-  }
+}
 
 .app__header-h1 {
   font-family: sans-serif;
@@ -16,36 +16,36 @@
   padding: 1rem;
 }
 
-.app__header-img img  {
-    width: 80%;
+.app__header-img img {
+  width: 80%;
 }
 
-.app__wrapper_info  {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    padding: 1rem;
+.app__wrapper_info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
 }
 
-.app__wrapper_info p  {
+.app__wrapper_info p {
   font-size: 38px;
   font-weight: 400;
   color: darkorange;
 }
 
-.app__wrapper_img  {
+.app__wrapper_img {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.app__wrapper_img img  {
+.app__wrapper_img img {
   width: 50%;
 }
 
-.custom__button  {
+.custom__button {
   padding: 1rem 4rem;
   margin: 0.5rem;
   background-color: rgb(21, 29, 29);
@@ -55,10 +55,47 @@
   font-weight: 500;
 }
 
-.custom__button:hover  {
+.custom__button:hover {
   background-color: rgb(254, 254, 255);
   color: black;
   cursor: pointer;
   transition: 5s ease;
   border: 2px solid #458736;
+}
+
+@media screen and (max-width: 2000px) {
+  .burger__img {
+    width: 410px;
+    padding: 1rem;
+  }
+
+  .app__navbar-links:hover {
+    color: #ffffff;
+  }
+
+  .app__header-img img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .app__navbar-links {
+    display: none;
+  }
+
+  .app__navbar-smallscreen {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .burger__img {
+    width: 90px;
+    padding: 1rem;
+  }
+
+   .app__header-img img {
+    width: 90%;
+    
+  }
 }

@@ -1,0 +1,33 @@
+
+@media screen and (max-width: 2000px) {
+  .burger__img {
+    width: 510px;
+    padding: 1rem;
+  }
+
+  .app__header-img img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .burger__img {
+    width: 350px;
+    padding: 1rem;
+  }
+
+  .app__header-img img {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .burger__img {
+    width: 210px;
+    padding: 1rem;
+  }
+
+  .app__header-img img {
+    width: 60%;
+  }
+}

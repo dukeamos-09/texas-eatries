@@ -2,6 +2,7 @@ import React from "react";
 
 import images from "../../constant/images";
 
+
 const SubHeading = ({ title }) => {
   return (
     <div style={{ marginBottom: "2rem" }}>
