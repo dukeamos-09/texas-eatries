@@ -22,24 +22,30 @@ const Header = () => {
       </div>
 
       <div className="app__wrapper_img">
-        <img src={images.meatballs} alt="header img" />
+        <img src={images.meatballs} alt="meatballs" />
+        <p>meatballs</p>
         <img
           src={images.raspberries_cake}
           alt="raspberries_cake"
           className="burger__img"
         />
+        <p>raspberries_cake</p>
         <img
           src={images.grilled_chicken}
           alt="grilled_chicken"
           className="burger__img"
         />
+        <p>grilled_chicken</p>
         <img
           src={images.blackberries_toast}
           alt="blackberries_toast"
           className="burger__img"
         />
+        <p>blackberries_toast</p>
         <img src={images.burger} alt="burger" className="burger__img" />
+        <p>burger</p>
         <img src={images.salad} alt="salad" className="burger__img" />
+        <p>salad</p>
       </div>
     </div>
   );
